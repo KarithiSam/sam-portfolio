@@ -1,0 +1,33 @@
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 6px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: stretch;
+  
+}
+
+.food-grid p {
+  line-height: 20px;
+  font-family: Arial;
+  font-size: 14px;
+  
+  
+}
+.food-grid div {
+ border-style: solid;
+ border-radius: 8px;
+
+ border-color: grey;
+ padding: 10px;
+}
+
+
+.food-grid span {
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  color: black;
+}

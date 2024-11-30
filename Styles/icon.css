@@ -1,0 +1,32 @@
+
+
+.icon-grid {
+  background-image: linear-gradient(to left, grey);
+  display: grid;
+  grid-template-rows: 1fr;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px; 
+border: solid;
+border-color: grey;
+}
+
+
+
+.icon-flex {
+  display: flex;
+  flex-direction: column; 
+}
+
+.icon-flex img {
+  height: 50px;
+  
+}
+
+.icon-flex div {
+
+margin-bottom: 6px;
+font-family: arial;
+font-size: 14px;
+}

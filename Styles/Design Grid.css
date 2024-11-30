@@ -1,0 +1,368 @@
+
+
+
+.food-grid,
+.food-grid2,
+.event-grid,
+.adventure-grid,
+.restaurant-menu,
+.Business-cards {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ margin-top: 100px;
+ align-items: stretch;
+ row-gap: 20px;
+ column-gap: 16px;
+
+}
+
+
+.adventure-grid,
+.event-grid,
+.restaurant-menu,
+.Business-cards {
+
+  margin-top: 20px;
+
+}
+
+.first-design,
+.burgur,
+.burgur-mock-up,
+.today-special,
+.masai-mara,
+.visit-olpajeta,
+.mount-kenya,
+.fest-marketing,
+.moran-lounge,
+.menu-pg2,
+.menu-pg1,
+.rest-menu,
+.stereo-image,
+.cedar-mall,
+.legend-agency,
+.legend-mall {
+  width: 100%;
+}
+
+.burgur-mock-up,
+.stereo-image {
+height: 100%;
+}
+
+
+    /*media query for 360width*/
+
+    @media only screen and (max-width: 320px)  {
+
+
+      .sam-B,
+      .sam-B2 {
+        font-size: 30px;
+        margin-top: -400px;
+        margin-left: 10px;
+      }
+    
+      .sam-B2 {
+        margin-top: -300px;
+      }
+    
+      .graphic-designer,
+      .about-us-button {
+       
+        margin-left: 100px;
+       
+        }
+    
+      } 
+    
+
+/*media query for 375width*/
+
+@media only screen and(min-width: 375px)  {
+  
+  .sam-B,
+  .sam-B2 {
+    margin-top: -400px;
+    margin-left: 10px;
+  }
+
+  .sam-B2 {
+    margin-top: -300px;
+  }
+
+  .graphic-designer,
+  .about-us-button {
+   
+    margin-left: 115px;
+   }
+
+  } 
+
+  /*media query for 390width*/
+
+@media only screen and (max-width: 390px)  {
+
+
+  .sam-B,
+  .sam-B2 {
+    margin-top: -400px;
+    margin-left: 10px;
+  }
+
+  .sam-B2 {
+    margin-top: -300px;
+  }
+
+  .graphic-designer,
+  .about-us-button {
+   
+    margin-left: 123px;
+   
+    }
+
+  } 
+
+      /*media query for 393width*/
+
+@media only screen and (min-width: 393px)  {
+
+
+  .sam-B,
+  .sam-B2 {
+    margin-top: -400px;
+    margin-left: 10px;
+  }
+
+  .sam-B2 {
+    margin-top: -300px;
+  }
+
+  .graphic-designer,
+  .about-us-button {
+   
+    margin-left: 126px;
+   
+    }
+
+  } 
+
+
+    /*media query for 414width*/
+
+@media only screen and (min-width: 414px)  {
+
+
+  .sam-B,
+  .sam-B2 {
+    margin-top: -400px;
+    margin-left: 10px;
+  }
+
+  .sam-B2 {
+    margin-top: -300px;
+  }
+
+  .graphic-designer,
+  .about-us-button {
+   
+    margin-left: 130px;
+   
+    }
+
+  } 
+  
+
+  
+/*
+this code enables responsive design
+*/
+
+@media only screen and (max-width: 800px) {
+  .food-grid,
+  .food-grid2,
+  .event-grid,
+  .adventure-grid,
+  .restaurant-menu,
+  .skills-grid,
+  .Business-cards {
+  grid-template-columns: 1fr;
+  
+  }
+
+  .cover-grid {
+    width: 100%;
+    
+    }
+    .cover-image {
+      height: 600px;
+      }
+  .icon-grid {
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+}
+
+.sam-B,
+.sam-B2 {
+  margin-top: -400px;
+  margin-left: 10px;
+}
+
+.sam-B2 {
+  margin-top: -300px;
+}
+
+.graphic-designer,
+.about-us-button {
+ 
+  margin-left: 130px;
+ 
+  }
+
+/*2nd media query*/
+
+@media (min-width:820px ) {
+
+  .food-grid,
+  .food-grid2,
+  .event-grid,
+  .adventure-grid,
+  .restaurant-menu,
+  .skills-grid,
+  .Business-cards
+   {
+  grid-template-columns: 1fr 1fr;
+  }
+
+  .cover-grid {
+    width: 100%;
+    
+    }
+    .cover-image {
+      height: 600px;
+      
+      }
+      .icon-grid {
+        justify-content: center;
+        align-items: center;
+      }
+      .sam-B,
+      .sam-B2 {
+        display: flex;
+       
+        position: absolute;
+        color: white;
+        font-family: Impact, Haettenschweiler,
+        'Arial Narrow Bold', sans-serif;
+        font-size: 36px;
+        font-weight: 700px;
+      
+      }
+      .sam-B {
+        margin-top: -400px;
+      }
+      .sam-B2 {
+        margin-top: -300px;
+      }
+      
+      .graphic-designer {
+        Display: flex;
+        position: absolute;
+        color: rgb(255, 255, 255, 0.7);
+        font-size: 15px;
+        font-family:Arial, Helvetica, sans-serif; 
+        margin-top: -405px;
+        margin-left: 200px;
+        font-stretch: 200%;
+        line-height: 20px;
+        
+      }
+      
+      .about-us-button {
+        Display: flex;
+        position: absolute;
+        margin-top: -100px;
+        margin-left: 200px;
+      }
+        
+    
+  }
+
+/*3rd media query*/
+    @media (min-width:1280px ) {
+
+      .food-grid,
+      .food-grid2,
+      .event-grid,
+      .adventure-grid,
+      .restaurant-menu,
+      .skills-grid,
+      .Business-cards {
+      grid-template-columns: 1fr 1fr 1fr;
+      }
+    
+      .cover-grid {
+        width: 100%;
+        
+        }
+        .cover-image {
+          width: 100%;
+          
+          }
+        
+          .icon-grid {
+            justify-content: none;
+            align-items: none;
+          }
+          .icon-flex {
+            display: flex;
+            flex-direction: column;
+            margin-left: -400px;
+          } 
+            
+
+.sam-B,
+.sam-B2 {
+  display: flex;
+ 
+  position: absolute;
+  color: white;
+  font-family: Impact, Haettenschweiler,
+  'Arial Narrow Bold', sans-serif;
+  font-size: 36px;
+  font-weight: 700px;
+
+}
+
+.sam-B {
+        margin-top: 0px; 
+      }
+
+.sam-B2 {
+  margin-top: 110px;
+}
+
+.graphic-designer {
+  Display: flex;
+  position: absolute;
+  color: rgb(255, 255, 255, 0.7);
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif; 
+  margin-top: -405px;
+  margin-left: 200px;
+  font-stretch: 200%;
+  line-height: 20px;
+  
+}
+
+.about-us-button {
+  Display: flex;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 200px;
+}
+
+}
